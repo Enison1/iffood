@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    
+}
+
+.cabecalho{
+    margin-bottom: 5px;
+}
+
+.banner{
+    border: 1px solid black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    border: 1px solid black;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.pesquisa{
+    border: 1px solid black;
+    height: 20px;
+}
+
+
+.home{
+    border: 1px solid black;
+    height: 800px;
+}
+.cardapio{
+    border: 1px solid black;
+    height: 800px;
+}
+
+
+.informacoes{
+    border: 1px solid black;
+    height: 800px;
+}
+
+.rodape{
+    border: 1px solid black;
+    height: 50px;
+    margin-top: 5px;
+}
+.container-fluid{    
+    font-size: 55px;
+    font-family: 'Aladin' , sans-serif;
+}
+
+.perfil-user{
+    width: 45px;
+    height: 45px;
+}
+
+  
