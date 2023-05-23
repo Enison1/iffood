@@ -48,13 +48,16 @@ body{
     margin-top: 5px;
 }
 .container-fluid{    
-    font-size: 55px;
-    font-family: 'Aladin' , sans-serif;
+    /* font-family: 'Aladin' , sans-serif; */
 }
 
 .perfil-user{
     width: 45px;
     height: 45px;
+}
+.font-Logo{
+    font-size: 35px;
+    font-family: 'Aladin' , sans-serif;
 }
 
   
