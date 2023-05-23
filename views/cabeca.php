@@ -6,10 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -32,6 +29,7 @@
                         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                    <div class="px-2"></div>
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
@@ -70,9 +68,9 @@
                             <ul class="navbar-nav">
                                 <div class="btn-group dropstart">
                                     <a type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
-                                      <img src="svg/Group 95.svg" class="rounded-circle" role="button" height="35" alt="perfil" loading="lazy" />
+                                      <img src="../public/svg/Group 95.svg" role="button" height="35" alt="perfil" loading="lazy" />
                                     </a>
-                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
                                   <li><a class="dropdown-item" href="#">Meu Perfil</a></li>
                                   <li><a class="dropdown-item" href="#">Configurações</a></li>
                                   <li><a class="dropdown-item" href="#">Sair</a></li>
