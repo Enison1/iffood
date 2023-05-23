@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -15,6 +17,7 @@
 </head>
 
 <body>
+    <script src="MDB5-STANDARD-UI-KIT-Free-6.3.1/src/js/free/dropdow.js"></script>
 
     <div class="cabecalho">
         <div class="menu">
@@ -45,8 +48,8 @@
                             <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
                                 id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
                                 aria-expanded="false">
-                                <img src="svg/Group 95.svg" class="rounded-circle"
-                                    height="35" alt="perfil" loading="lazy" />
+                                <img src="svg/Group 95.svg" class="rounded-circle" height="35" alt="perfil"
+                                    loading="lazy" />
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
                                 <li>
@@ -70,12 +73,17 @@
     <div class="banner">
         <div class="main">
             <div>
-                <p>BANNER</p>
+                <p>Bem vindo ao IF Foods!</p>
             </div>
-            <div class="pesquisa">
-                <input type="text" placeholder='PESQUISAR...'>
+            <div class="input-group">
+                <div class="form-outline">
+                    <input width="300" placeholder="Pesquisar" type="search" id="form1" class="form-control" />
+                    <!-- <label class="form-label" for="form1">Pesquisar</label> -->
+                </div>
+                <button type="button" class="btn btn-warning">
+                    <i class="fas fa-search"></i>
+                </button>
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </div>
