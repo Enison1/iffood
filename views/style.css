@@ -1,6 +1,7 @@
-body{
+.grid{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    
 }
 
 .cabecalho{
@@ -46,9 +47,6 @@ body{
     border: 1px solid black;
     height: 50px;
     margin-top: 5px;
-}
-.container-fluid{    
-    /* font-family: 'Aladin' , sans-serif; */
 }
 
 .perfil-user{

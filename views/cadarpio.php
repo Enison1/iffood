@@ -2,9 +2,9 @@
     include ('cabeca.php');
 ?>
 
-<div class="cardapio">
+<section class="cardapio">
     CARDAPIO
-</div>
+</section>
 
 <?php
     include ('rodape.php');
