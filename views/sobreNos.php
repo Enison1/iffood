@@ -2,8 +2,8 @@
     include ('cabeca.php');
 ?>
 
-<section class="informacoes">
-    INFORMAÇÕES
+<section class="sobrenos">
+    Sobre nós
 </section>
 
 <?php

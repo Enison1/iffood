@@ -47,7 +47,7 @@
                                 <a class="nav-link active" href="#">Sobre nós</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#cardapio">Carrinho</a>
+                                <a class="nav-link active" href="#carrinho">Carrinho</a>
                             </li>
                         </ul>
                         <!-- Avatar -->
@@ -78,7 +78,7 @@
     </section>
 
     <section class="banner">
-        <div class="main">
+        <div class="bem-vindo">
             <div>
                 <p>Bem vindo ao IF Foods!</p>
             </div>
