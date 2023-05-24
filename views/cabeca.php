@@ -31,7 +31,7 @@
             <!-- navbar -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand font-Logo" href="#">IF Foods</a>
+                    <a class="navbar-brand font-Logo" href="#"><img width="150" src="../public/svg/IF Foods.svg" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -82,12 +82,14 @@
             </div>
             <div class="input-group">
                 <div class="form-outline">
-                    <input width="300" placeholder="Pesquisar" type="search" id="form1" class="form-control" />
-                    <!-- <label class="form-label" for="form1">Pesquisar</label> -->
+                    <input class="form-control" placeholder="Pesquisar" type="search" id="form1"/>
                 </div>
-                <button type="button" class="btn btn-warning">
+                <button type="btn" class="btn btn-warning">
                     <i class="fas fa-search"></i>
                 </button>
+            </div>
+            <div>
+                <button></button>
             </div>
         </div>
     </section>

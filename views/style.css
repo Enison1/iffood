@@ -16,7 +16,6 @@
 }
 
 .banner{
-    border: 1px solid black;
     height: 700px;
     display: flex;
     justify-content: center;
@@ -71,11 +70,18 @@
 }
 
 .bem-vindo{
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
+    font-weight: bolder;
 }
 .input-group{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.btn-pesquisar{
+    background-color:#EF9308;
+    border: none;
+    border-radius: 5px;
+    height: 38px;
 }
