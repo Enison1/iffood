@@ -1,6 +1,13 @@
-body{
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Jost:wght@300;400;500;600&display=swap');
+
+.grid{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
 }
 
 .cabecalho{
@@ -13,6 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url();
 }
 
 .menu{
@@ -44,11 +52,8 @@ body{
 
 .rodape{
     border: 1px solid black;
-    height: 50px;
+    height: 200px;
     margin-top: 5px;
-}
-.container-fluid{    
-    /* font-family: 'Aladin' , sans-serif; */
 }
 
 .perfil-user{
@@ -58,6 +63,10 @@ body{
 .font-Logo{
     font-size: 35px;
     font-family: 'Aladin' , sans-serif;
+}
+#link{
+    list-style: none !important;
+    
 }
 
   

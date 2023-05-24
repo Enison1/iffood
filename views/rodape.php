@@ -1,6 +1,8 @@
-        <div class="rodape">
+    <section class="rodape">
+        <div class="">
             RODAPÉ
         </div>
-    </body>
+    </section>
+</body>
 
 </html>

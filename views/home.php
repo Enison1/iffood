@@ -10,7 +10,6 @@ include("cabeca.php");
   
   .card {
     width: calc(33.33% - 10px);
-    /* O cálculo do width leva em consideração o espaçamento entre os cards */
   }
 </style>
 <section class="cards-container-categoria">
