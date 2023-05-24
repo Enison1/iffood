@@ -64,5 +64,9 @@
     font-size: 35px;
     font-family: 'Aladin' , sans-serif;
 }
+#link{
+    list-style: none !important;
+    
+}
 
   

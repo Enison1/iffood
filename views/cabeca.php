@@ -48,8 +48,8 @@
                             <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
                                 <ul class="navbar-nav">
                                     <div class="btn-group dropstart">
-                                        <a type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
-                                        <img src="../public/svg/Group 95.svg" role="button" height="45" alt="perfil" loading="lazy" />
+                                        <a  id="link" data-bs-toggle="dropdown" aria-expanded="true">
+                                            <img  src="../public/svg/Group 95.svg"  height="45" alt="perfil" loading="lazy" />
                                         </a>
                                         <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
                                             <li><a class="dropdown-item" href="#">Meu Perfil</a></li>
