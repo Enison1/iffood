@@ -87,3 +87,13 @@
     border-radius: 5px;
     height: 38px;
 }
+/* cards */
+
+.cards-container-categoria {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: calc(33.33% - 10px);
+  }
