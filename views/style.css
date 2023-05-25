@@ -73,6 +73,8 @@
     font-size: 35px;
     text-align: center;
     font-weight: bolder;
+    color:black; /* Define a cor do texto */
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
 }
 .input-group{
     display: flex;

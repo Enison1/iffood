@@ -31,7 +31,7 @@
             <!-- navbar -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand font-Logo" href="#"><img width="150" src="../public/svg/IF Foods.svg" alt=""></a>
+                    <a class="navbar-brand font-Logo" href="#"><img width="125" src="../public/svg/IF Foods.svg" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -87,9 +87,6 @@
                 <button type="btn" class="btn btn-warning">
                     <i class="fas fa-search"></i>
                 </button>
-            </div>
-            <div>
-                <button></button>
             </div>
         </div>
     </section>
