@@ -1,4 +1,6 @@
-// include("cabeca.php");
+ <?php 
+    include("cabeca.php");
+ ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 

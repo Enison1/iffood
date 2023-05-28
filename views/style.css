@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Jost:wght@300;400;500;600&display=swap');
 
@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inder', sans-serif;
     font-size: 20px;
     color: white;
 }
@@ -20,14 +20,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../public/img/hamburger2.jpg);
-    background-size: cover;
+    
 }
 
 .menu{
-    border: 1px solid black;
     height: 50px;
-    margin-bottom: 5px;
 }
 
 .pesquisa{
@@ -37,7 +34,6 @@
 
 
 .home{
-    border: 1px solid black;
     height: 800px;
 }
 .cardapio{
@@ -61,10 +57,7 @@
     width: 45px;
     height: 45px;
 }
-.font-Logo{
-    font-size: 35px;
-    font-family: 'Aladin' , sans-serif;
-}
+
 .link{
     cursor: pointer;
 }
@@ -73,8 +66,7 @@
     font-size: 35px;
     text-align: center;
     font-weight: bolder;
-    color:black; /* Define a cor do texto */
-    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+    color:black; 
 }
 .input-group{
     display: flex;
@@ -116,4 +108,34 @@ width: 4px;
 height: 30px;
 background-color: #000;
 border-radius: 2px;
+}
+
+
+.carrinho{
+    width: 45px;
+}
+
+.navbar{
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.05);
+    
+}
+.imagem{
+    background-image: url(../public/img/hamburguer.jpg);
+    background-size: cover;
+}
+
+.menu{
+    position:fixed;
+
+    width: 100%;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    position: absolute;
+    width: 100%;
+    justify-content: center;
 }

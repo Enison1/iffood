@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>IF Food</title>
+    <title>Snacklandia</title>
 </head>
 
 <body class="grid">
@@ -25,18 +25,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-
-    <section class="cabecalho">
         <div class="menu">
-            <!-- navbar -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark bg ">
                 <div class="container-fluid">
-                    <a class="navbar-brand font-Logo" href="#"><img width="125" src="../public/svg/IF Foods.svg" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                     <!-- <div class="px-2"></div> -->
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
@@ -48,11 +43,14 @@
                             <li class="nav-item">
                                 <a class="nav-link active" href="#">Sobre nós</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#carrinho">Carrinho</a>
-                            </li>
                         </ul>
                     </div>
+                    <div class="logo">
+                        <a class="navbar-brand font-Logo" href="#"><img src="../public/svg/Snacklandia.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="carrinho">
+                    <img src="../public/svg/car.svg" height="25" alt="car" loading="lazy" />
                 </div>
                 <div class="dropdown">
                     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
@@ -71,23 +69,23 @@
                     </div>
                 </div>
             </nav>
-
         </div>
-    </section>
+    <div class="imagem">
 
-    <section class="banner">
-        <div class="bem-vindo">
-            <div>
-                <p>Bem vindo ao IF Foods!</p>
-            </div>
-            <div class="input-group">
-                <div class="form-outline">
-                    <input class="form-control" placeholder="Pesquisar" type="search" id="form1"/>
+        <section class="banner">
+            <div class="bem-vindo">
+                <div>
+                    <p>Bem vindo ao IF Foods!</p>
                 </div>
-                <button type="btn" class="btn btn-warning">
-                    <i class="fas fa-search"></i>
-                </button>
+                <div class="input-group">
+                    <div class="form-outline">
+                        <input class="form-control" placeholder="Pesquisar" type="search" id="form1" />
+                    </div>
+                    <button type="btn" class="btn btn-warning">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
     </div>
