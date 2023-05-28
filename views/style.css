@@ -135,7 +135,9 @@ border-radius: 2px;
     justify-content: space-around;
 }
 .logo{
-    position: absolute;
-    width: 100%;
-    justify-content: center;
+    /* position: fixed; */
+    width: 115%;
+    display: flex;
+    justify-content: start;
 }
+

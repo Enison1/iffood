@@ -25,51 +25,51 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-        <div class="menu">
-            <nav class="navbar navbar-expand-lg navbar-dark bg ">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarText">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#cardapio">Cardápio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Sobre nós</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="logo">
-                        <a class="navbar-brand font-Logo" href="#"><img src="../public/svg/Snacklandia.svg" alt=""></a>
-                    </div>
+    <div class="menu">
+        <nav class="navbar navbar-expand-lg navbar-dark bg ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#cardapio">Cardápio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Sobre nós</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="carrinho">
-                    <img src="../public/svg/car.svg" height="25" alt="car" loading="lazy" />
+            </div>
+            <div class="logo">
+                <a class="navbar-brand font-Logo" href="#"><img src="../public/svg/Snacklandia.svg" alt=""></a>
+            </div>
+            <div class="carrinho">
+                <img src="../public/svg/car.svg" height="25" alt="car" loading="lazy" />
+            </div>
+            <div class="dropdown">
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                        <div class="btn-group dropstart">
+                            <a class="link" data-bs-toggle="dropdown" aria-expanded="true">
+                                <img src="../public/svg/Group 95.svg" height="45" alt="perfil" loading="lazy" />
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Meu Perfil</a></li>
+                                <li><a class="dropdown-item" href="#">Configurações</a></li>
+                                <li><a class="dropdown-item" href="#">Sair</a></li>
+                            </ul>
+                        </div>
+                    </ul>
                 </div>
-                <div class="dropdown">
-                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-                        <ul class="navbar-nav">
-                            <div class="btn-group dropstart">
-                                <a class="link" data-bs-toggle="dropdown" aria-expanded="true">
-                                    <img src="../public/svg/Group 95.svg" height="45" alt="perfil" loading="lazy" />
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Meu Perfil</a></li>
-                                    <li><a class="dropdown-item" href="#">Configurações</a></li>
-                                    <li><a class="dropdown-item" href="#">Sair</a></li>
-                                </ul>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
+    </div>
     <div class="imagem">
 
         <section class="banner">
