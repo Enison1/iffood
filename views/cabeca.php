@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Fodie</title>
 </head>
@@ -14,11 +15,11 @@
     <nav class="navbar">
         <div class="logo">
             <h1 id="logo">Foodie</h1>
-        </div>                
-        <ul class="menu-list">   
+        </div>
+        <ul class="menu-list">
             <div>
                 <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            </div>                     
+            </div>
             <div>
                 <li class="nav-item"><a class="nav-link" href="#">Cardápio</a></li>
             </div>
@@ -31,7 +32,7 @@
                 <img id="carrinho" src="../public/svg/car.svg" alt="Carrinho">
             </div>
             <div class="profile">
-                <img  src="../public/svg/Group 95.svg" alt="perfil" id="perfil">
+                <img src="../public/svg/Group 95.svg" alt="perfil" id="perfil">
             </div>
         </div>
     </nav>
@@ -43,12 +44,10 @@
                     <p>Bem vindo ao Foodie!</p>
                 </div>
                 <div class="input-group">
-                    <div class="form-outline">
-                        <input class="form-control" placeholder="Pesquisar" type="search" id="form1" />
-                    </div>
-                    <button type="btn" class="btn btn-warning">
+                    <div class="search-box">
+                        <input type="text" placeholder="Pesquisar...">
                         <i class="fas fa-search"></i>
-                    </button>
+                    </div>
                 </div>
             </div>
         </section>
