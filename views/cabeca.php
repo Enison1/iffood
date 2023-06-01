@@ -15,10 +15,16 @@
         <div class="logo">
             <h1 id="logo">Foodie</h1>
         </div>                
-        <ul class="menu-list">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Cardápio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Sobre Nós</a></li>
+        <ul class="menu-list">   
+            <div>
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            </div>                     
+            <div>
+                <li class="nav-item"><a class="nav-link" href="#">Cardápio</a></li>
+            </div>
+            <div>
+                <li class="nav-item"><a class="nav-link" href="#">Sobre Nós</a></li>
+            </div>
         </ul>
         <div class="right-items">
             <div class="cart">
