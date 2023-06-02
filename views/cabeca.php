@@ -11,21 +11,24 @@
 </head>
 
 <body class="grid">
-    <nav class="navbar">
-        <div class="logo">
-            <h1 id="logo">Foodie</h1>
-        </div>                
+    <nav class="navbar-transparente">
         <ul class="menu-list">
             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Cardápio</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Sobre Nós</a></li>
         </ul>
-        <div class="right-items">
-            <div class="cart">
-                <img id="carrinho" src="../public/svg/car.svg" alt="Carrinho">
+        <!-- <div><img src="..public/svg/" alt=""></div> -->
+        <div class="container-flex">
+            <div class="logo">
+                <h1 id="logo">Foodie</h1>
             </div>
-            <div class="profile">
-                <img  src="../public/svg/Group 95.svg" alt="perfil" id="perfil">
+            <div class="right-items">
+                <div class="cart">
+                    <img id="carrinho" src="../public/svg/car.svg" alt="Carrinho">
+                </div>
+                <div class="profile">
+                    <img src="../public/svg/Group 95.svg" alt="perfil" id="perfil">
+                </div>
             </div>
         </div>
     </nav>
